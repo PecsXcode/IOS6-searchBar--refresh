@@ -75,7 +75,7 @@
     
     [self.tableView reloadData];
 }
-//proba
+//proba szöveg
 -(void)refreshing:(UIRefreshControl*)refreshControl{
     
     [self refresh];
