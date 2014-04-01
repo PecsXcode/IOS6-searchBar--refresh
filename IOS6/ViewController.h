@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UITableViewController<UISearchBarDelegate>
 
+@property IBOutlet UISearchBar *kereso;
+-(IBAction)keresogomb:(id)sender;
 @end

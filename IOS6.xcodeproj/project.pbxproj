@@ -17,7 +17,7 @@
 		63F5E02F16CC42CA0039ADF8 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F5E02E16CC42CA0039ADF8 /* Default@2x.png */; };
 		63F5E03116CC42CA0039ADF8 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 63F5E03016CC42CA0039ADF8 /* Default-568h@2x.png */; };
 		63F5E03416CC42CA0039ADF8 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F5E03216CC42CA0039ADF8 /* MainStoryboard.storyboard */; };
-		63F5E03716CC42CA0039ADF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5E03616CC42CA0039ADF8 /* ViewController.m */; };
+		63F5E03F16CC43060039ADF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63F5E03E16CC43060039ADF8 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,8 +35,8 @@
 		63F5E02E16CC42CA0039ADF8 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		63F5E03016CC42CA0039ADF8 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		63F5E03316CC42CA0039ADF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		63F5E03516CC42CA0039ADF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		63F5E03616CC42CA0039ADF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		63F5E03D16CC43060039ADF8 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		63F5E03E16CC43060039ADF8 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,9 +85,9 @@
 			children = (
 				63F5E02916CC42C90039ADF8 /* AppDelegate.h */,
 				63F5E02A16CC42C90039ADF8 /* AppDelegate.m */,
+				63F5E03D16CC43060039ADF8 /* ViewController.h */,
+				63F5E03E16CC43060039ADF8 /* ViewController.m */,
 				63F5E03216CC42CA0039ADF8 /* MainStoryboard.storyboard */,
-				63F5E03516CC42CA0039ADF8 /* ViewController.h */,
-				63F5E03616CC42CA0039ADF8 /* ViewController.m */,
 				63F5E02116CC42C90039ADF8 /* Supporting Files */,
 			);
 			path = IOS6;
@@ -175,7 +175,7 @@
 			files = (
 				63F5E02716CC42C90039ADF8 /* main.m in Sources */,
 				63F5E02B16CC42C90039ADF8 /* AppDelegate.m in Sources */,
-				63F5E03716CC42CA0039ADF8 /* ViewController.m in Sources */,
+				63F5E03F16CC43060039ADF8 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +292,7 @@
 				63F5E03C16CC42CA0039ADF8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
